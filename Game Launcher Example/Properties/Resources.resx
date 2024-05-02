@@ -121,4 +121,10 @@
   <data name="Linus_Selfie_Wallpaper_1080_T_D.png.981a6c9517151c812ba4e160592840d4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Linus_Selfie_Wallpaper_1080_T_D.png.981a6c9517151c812ba4e160592840d4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="elden-ring-900x506" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\elden-ring-900x506.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Skärmbild 2024-05-02 140539" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Skärmbild 2024-05-02 140539.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

@@ -63,9 +63,29 @@ namespace Game_Launcher_Example.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap elden_ring_900x506 {
+            get {
+                object obj = ResourceManager.GetObject("elden-ring-900x506", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Linus_Selfie_Wallpaper_1080_T_D_png_981a6c9517151c812ba4e160592840d4 {
             get {
                 object obj = ResourceManager.GetObject("Linus_Selfie_Wallpaper_1080_T_D.png.981a6c9517151c812ba4e160592840d4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Skärmbild_2024_05_02_140539 {
+            get {
+                object obj = ResourceManager.GetObject("Skärmbild 2024-05-02 140539", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

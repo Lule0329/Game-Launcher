@@ -47,14 +47,16 @@
             // 
             // button1
             // 
+            button1.BackColor = Color.Transparent;
             button1.Enabled = false;
+            button1.Font = new Font("Times New Roman", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point);
             button1.Location = new Point(738, 515);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(162, 69);
             button1.TabIndex = 1;
             button1.Text = "Play";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // barProgressFile
@@ -102,7 +104,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.Linus_Selfie_Wallpaper_1080_T_D_png_981a6c9517151c812ba4e160592840d4;
+            BackColor = SystemColors.ActiveCaptionText;
+            BackgroundImage = Properties.Resources.Skärmbild_2024_05_02_140539;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(914, 600);
             Controls.Add(labelProgressTotal);
@@ -111,6 +114,8 @@
             Controls.Add(barProgressFile);
             Controls.Add(button1);
             Controls.Add(totalProgressBar);
+            DoubleBuffered = true;
+            ForeColor = SystemColors.ActiveCaptionText;
             FormBorderStyle = FormBorderStyle.FixedDialog;
             Margin = new Padding(3, 4, 3, 4);
             MaximizeBox = false;
